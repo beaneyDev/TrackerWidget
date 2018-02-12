@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TWListCollectionViewCell" customModule="TrackingWidget" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="107"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="426" height="107"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EAI-et-49k">
+                        <rect key="frame" x="0.0" y="0.0" width="426" height="107"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-lu-hqN">
+                                <rect key="frame" x="16" y="16" width="39.5" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMe-fk-iSE">
+                                <rect key="frame" x="71.5" y="16" width="338.5" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LMe-fk-iSE" firstAttribute="top" secondItem="EAI-et-49k" secondAttribute="top" constant="16" id="B3v-o1-xLE"/>
+                            <constraint firstAttribute="bottom" secondItem="LMe-fk-iSE" secondAttribute="bottom" constant="16" id="JjW-X4-o3p"/>
+                            <constraint firstAttribute="bottom" secondItem="Ges-lu-hqN" secondAttribute="bottom" constant="16" id="UNP-BJ-Jk0"/>
+                            <constraint firstItem="Ges-lu-hqN" firstAttribute="top" secondItem="EAI-et-49k" secondAttribute="top" constant="16" id="fTt-YW-NN4"/>
+                            <constraint firstItem="LMe-fk-iSE" firstAttribute="leading" secondItem="Ges-lu-hqN" secondAttribute="trailing" constant="16" id="fw9-ys-fCN"/>
+                            <constraint firstAttribute="trailing" secondItem="LMe-fk-iSE" secondAttribute="trailing" constant="16" id="tft-8r-PDd"/>
+                            <constraint firstItem="Ges-lu-hqN" firstAttribute="leading" secondItem="EAI-et-49k" secondAttribute="leading" constant="16" id="tiT-Yx-UXr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EAI-et-49k" secondAttribute="trailing" id="bHv-t9-QWZ"/>
+                <constraint firstAttribute="bottom" secondItem="EAI-et-49k" secondAttribute="bottom" id="tsB-vh-Thc"/>
+                <constraint firstItem="EAI-et-49k" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xhy-hm-BND"/>
+                <constraint firstItem="EAI-et-49k" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yQJ-a5-qnq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="426" height="107"/>
+            <connections>
+                <outlet property="lblDate" destination="LMe-fk-iSE" id="UTl-7c-Au9"/>
+                <outlet property="lblTitle" destination="Ges-lu-hqN" id="Z4H-R7-xgK"/>
+            </connections>
+            <point key="canvasLocation" x="43" y="11.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

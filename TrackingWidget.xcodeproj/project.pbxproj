@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		BE509A9B202F58D6007A4F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509A9A202F58D6007A4F65 /* AppDelegate.swift */; };
-		BE509A9D202F58D6007A4F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509A9C202F58D6007A4F65 /* ViewController.swift */; };
 		BE509AA0202F58D6007A4F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE509A9E202F58D6007A4F65 /* Main.storyboard */; };
 		BE509AA2202F58D6007A4F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE509AA1202F58D6007A4F65 /* Assets.xcassets */; };
 		BE509AA5202F58D6007A4F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE509AA3202F58D6007A4F65 /* LaunchScreen.storyboard */; };
 		BE509AB0202F58D6007A4F65 /* TrackingWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509AAF202F58D6007A4F65 /* TrackingWidgetTests.swift */; };
+		BE509ABB202F5977007A4F65 /* TWStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509ABA202F5977007A4F65 /* TWStore.swift */; };
+		BE509ABF202F59B1007A4F65 /* TWTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509ABE202F59B1007A4F65 /* TWTrack.swift */; };
+		BE509AC2202F5A0C007A4F65 /* TWListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509AC1202F5A0C007A4F65 /* TWListViewController.swift */; };
+		BE509AC4202F5A1C007A4F65 /* TWTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509AC3202F5A1C007A4F65 /* TWTrackViewController.swift */; };
+		BE509AC7202F5A9C007A4F65 /* TWTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509AC6202F5A9C007A4F65 /* TWTracker.swift */; };
+		BE509ACB202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509AC9202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.swift */; };
+		BE509ACC202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE509ACA202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.xib */; };
+		BE509AD1202F6866007A4F65 /* TWListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE509ACF202F6866007A4F65 /* TWListCollectionViewCell.swift */; };
+		BE509AD2202F6866007A4F65 /* TWListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE509AD0202F6866007A4F65 /* TWListCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +36,6 @@
 /* Begin PBXFileReference section */
 		BE509A97202F58D6007A4F65 /* TrackingWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE509A9A202F58D6007A4F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE509A9C202F58D6007A4F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE509A9F202F58D6007A4F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE509AA1202F58D6007A4F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE509AA4202F58D6007A4F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +43,15 @@
 		BE509AAB202F58D6007A4F65 /* TrackingWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE509AAF202F58D6007A4F65 /* TrackingWidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingWidgetTests.swift; sourceTree = "<group>"; };
 		BE509AB1202F58D6007A4F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE509ABA202F5977007A4F65 /* TWStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWStore.swift; sourceTree = "<group>"; };
+		BE509ABE202F59B1007A4F65 /* TWTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTrack.swift; sourceTree = "<group>"; };
+		BE509AC1202F5A0C007A4F65 /* TWListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWListViewController.swift; sourceTree = "<group>"; };
+		BE509AC3202F5A1C007A4F65 /* TWTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTrackViewController.swift; sourceTree = "<group>"; };
+		BE509AC6202F5A9C007A4F65 /* TWTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWTracker.swift; sourceTree = "<group>"; };
+		BE509AC9202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE509ACA202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailsCollectionViewCell.xib; sourceTree = "<group>"; };
+		BE509ACF202F6866007A4F65 /* TWListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWListCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE509AD0202F6866007A4F65 /* TWListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TWListCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +93,12 @@
 		BE509A99202F58D6007A4F65 /* TrackingWidget */ = {
 			isa = PBXGroup;
 			children = (
+				BE509AC8202F5C5B007A4F65 /* Views */,
+				BE509AC5202F5A8F007A4F65 /* Controllers */,
+				BE509AC0202F59FB007A4F65 /* View Controllers */,
+				BE509ABD202F5994007A4F65 /* Model */,
+				BE509ABC202F5982007A4F65 /* State */,
 				BE509A9A202F58D6007A4F65 /* AppDelegate.swift */,
-				BE509A9C202F58D6007A4F65 /* ViewController.swift */,
 				BE509A9E202F58D6007A4F65 /* Main.storyboard */,
 				BE509AA1202F58D6007A4F65 /* Assets.xcassets */,
 				BE509AA3202F58D6007A4F65 /* LaunchScreen.storyboard */,
@@ -94,6 +114,50 @@
 				BE509AB1202F58D6007A4F65 /* Info.plist */,
 			);
 			path = TrackingWidgetTests;
+			sourceTree = "<group>";
+		};
+		BE509ABC202F5982007A4F65 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				BE509ABA202F5977007A4F65 /* TWStore.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		BE509ABD202F5994007A4F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE509ABE202F59B1007A4F65 /* TWTrack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE509AC0202F59FB007A4F65 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE509AC1202F5A0C007A4F65 /* TWListViewController.swift */,
+				BE509AC3202F5A1C007A4F65 /* TWTrackViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BE509AC5202F5A8F007A4F65 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE509AC6202F5A9C007A4F65 /* TWTracker.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE509AC8202F5C5B007A4F65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE509AC9202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.swift */,
+				BE509ACA202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.xib */,
+				BE509ACF202F6866007A4F65 /* TWListCollectionViewCell.swift */,
+				BE509AD0202F6866007A4F65 /* TWListCollectionViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE509ACC202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.xib in Resources */,
+				BE509AD2202F6866007A4F65 /* TWListCollectionViewCell.xib in Resources */,
 				BE509AA5202F58D6007A4F65 /* LaunchScreen.storyboard in Resources */,
 				BE509AA2202F58D6007A4F65 /* Assets.xcassets in Resources */,
 				BE509AA0202F58D6007A4F65 /* Main.storyboard in Resources */,
@@ -199,8 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE509A9D202F58D6007A4F65 /* ViewController.swift in Sources */,
+				BE509ABF202F59B1007A4F65 /* TWTrack.swift in Sources */,
+				BE509AC2202F5A0C007A4F65 /* TWListViewController.swift in Sources */,
+				BE509AC4202F5A1C007A4F65 /* TWTrackViewController.swift in Sources */,
+				BE509ACB202F5C6F007A4F65 /* TrackDetailsCollectionViewCell.swift in Sources */,
+				BE509ABB202F5977007A4F65 /* TWStore.swift in Sources */,
 				BE509A9B202F58D6007A4F65 /* AppDelegate.swift in Sources */,
+				BE509AC7202F5A9C007A4F65 /* TWTracker.swift in Sources */,
+				BE509AD1202F6866007A4F65 /* TWListCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
